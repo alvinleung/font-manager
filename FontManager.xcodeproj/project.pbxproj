@@ -14,6 +14,8 @@
 		9B4AA3482DE00D48007629E7 /* FontManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4AA3472DE00D48007629E7 /* FontManagerTests.swift */; };
 		9B4AA3522DE00D48007629E7 /* FontManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4AA3512DE00D48007629E7 /* FontManagerUITests.swift */; };
 		9B4AA3542DE00D48007629E7 /* FontManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4AA3532DE00D48007629E7 /* FontManagerUITestsLaunchTests.swift */; };
+		9B4AA3612DE00E00007629E7 /* FontListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4AA3602DE00E00007629E7 /* FontListView.swift */; };
+		9B4AA3632DE10176007629E7 /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4AA3622DE10176007629E7 /* StringUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		9B4AA34D2DE00D48007629E7 /* FontManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4AA3512DE00D48007629E7 /* FontManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManagerUITests.swift; sourceTree = "<group>"; };
 		9B4AA3532DE00D48007629E7 /* FontManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B4AA3602DE00E00007629E7 /* FontListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontListView.swift; sourceTree = "<group>"; };
+		9B4AA3622DE10176007629E7 /* StringUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				9B4AA3392DE00D48007629E7 /* Assets.xcassets */,
 				9B4AA33E2DE00D48007629E7 /* FontManager.entitlements */,
 				9B4AA33B2DE00D48007629E7 /* Preview Content */,
+				9B4AA3602DE00E00007629E7 /* FontListView.swift */,
+				9B4AA3622DE10176007629E7 /* StringUtil.swift */,
 			);
 			path = FontManager;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B4AA3632DE10176007629E7 /* StringUtil.swift in Sources */,
 				9B4AA3382DE00D47007629E7 /* ContentView.swift in Sources */,
+				9B4AA3612DE00E00007629E7 /* FontListView.swift in Sources */,
 				9B4AA3362DE00D47007629E7 /* FontManagerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,13 +435,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FontManager/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Fonts;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = daybreak.FontManager;
+				PRODUCT_BUNDLE_IDENTIFIER = alvinleung.FontManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -452,13 +462,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FontManager/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Fonts;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = daybreak.FontManager;
+				PRODUCT_BUNDLE_IDENTIFIER = alvinleung.FontManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
