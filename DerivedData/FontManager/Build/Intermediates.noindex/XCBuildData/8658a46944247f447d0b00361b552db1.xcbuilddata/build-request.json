@@ -1,0 +1,60 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "c056db388923d8bbfc440317e109ac5176e01603b104379d3f00b7858718bcc7"
+    }
+  ],
+  "containerPath" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx15.4",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Products",
+      "derivedDataPath" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "CLANG_COVERAGE_MAPPING" : "YES",
+          "CLANG_PROFILE_DATA_DIRECTORY" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/ProfileData",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

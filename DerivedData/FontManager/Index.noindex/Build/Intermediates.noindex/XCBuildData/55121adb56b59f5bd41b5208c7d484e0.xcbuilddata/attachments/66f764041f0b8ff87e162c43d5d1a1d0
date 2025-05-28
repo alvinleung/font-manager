@@ -1,0 +1,33 @@
+{
+  "" : {
+    "dependencies" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Index.noindex/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontManager-master.d",
+    "diagnostics" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Index.noindex/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontManager-master.dia",
+    "emit-module-dependencies" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Index.noindex/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontManager-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Index.noindex/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontManager-master-emit-module.dia",
+    "swift-dependencies" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Index.noindex/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontManager-master.swiftdeps"
+  },
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Index.noindex/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/Font Sync/CompareFiles.swift" : {
+
+  },
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/Font Sync/FontSync.swift" : {
+
+  },
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/Font Sync/SecuredScopeAccess.swift" : {
+
+  },
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/FontListView.swift" : {
+
+  },
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/FontManagerApp.swift" : {
+
+  },
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/StringUtil.swift" : {
+
+  },
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/model/FontDataModel.swift" : {
+
+  }
+}

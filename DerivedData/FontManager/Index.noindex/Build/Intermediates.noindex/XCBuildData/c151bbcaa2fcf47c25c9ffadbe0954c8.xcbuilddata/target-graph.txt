@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'FontManagerUITests' in project 'FontManager'
+➜ Explicit dependency on target 'FontManager' in project 'FontManager'
+Target 'FontManagerTests' in project 'FontManager'
+➜ Explicit dependency on target 'FontManager' in project 'FontManager'
+Target 'FontManager' in project 'FontManager' (no dependencies)

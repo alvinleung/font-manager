@@ -1,0 +1,88 @@
+{
+  "" : {
+    "diagnostics" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontManager-master.dia",
+    "emit-module-dependencies" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontManager-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontManager-master-emit-module.dia",
+    "swift-dependencies" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontManager-master.swiftdeps"
+  },
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/Font Sync/CompareFiles.swift" : {
+    "const-values" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/CompareFiles.swiftconstvalues",
+    "dependencies" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/CompareFiles.d",
+    "diagnostics" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/CompareFiles.dia",
+    "index-unit-output-path" : "/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/CompareFiles.o",
+    "llvm-bc" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/CompareFiles.bc",
+    "object" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/CompareFiles.o",
+    "swift-dependencies" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/CompareFiles.swiftdeps",
+    "swiftmodule" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/CompareFiles~partial.swiftmodule"
+  },
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/Font Sync/FontSync.swift" : {
+    "const-values" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontSync.swiftconstvalues",
+    "dependencies" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontSync.d",
+    "diagnostics" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontSync.dia",
+    "index-unit-output-path" : "/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontSync.o",
+    "llvm-bc" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontSync.bc",
+    "object" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontSync.o",
+    "swift-dependencies" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontSync.swiftdeps",
+    "swiftmodule" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontSync~partial.swiftmodule"
+  },
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/Font Sync/SecuredScopeAccess.swift" : {
+    "const-values" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/SecuredScopeAccess.swiftconstvalues",
+    "dependencies" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/SecuredScopeAccess.d",
+    "diagnostics" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/SecuredScopeAccess.dia",
+    "index-unit-output-path" : "/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/SecuredScopeAccess.o",
+    "llvm-bc" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/SecuredScopeAccess.bc",
+    "object" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/SecuredScopeAccess.o",
+    "swift-dependencies" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/SecuredScopeAccess.swiftdeps",
+    "swiftmodule" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/SecuredScopeAccess~partial.swiftmodule"
+  },
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/FontListView.swift" : {
+    "const-values" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontListView.swiftconstvalues",
+    "dependencies" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontListView.d",
+    "diagnostics" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontListView.dia",
+    "index-unit-output-path" : "/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontListView.o",
+    "llvm-bc" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontListView.bc",
+    "object" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontListView.o",
+    "swift-dependencies" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontListView.swiftdeps",
+    "swiftmodule" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontListView~partial.swiftmodule"
+  },
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/FontManagerApp.swift" : {
+    "const-values" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontManagerApp.swiftconstvalues",
+    "dependencies" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontManagerApp.d",
+    "diagnostics" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontManagerApp.dia",
+    "index-unit-output-path" : "/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontManagerApp.o",
+    "llvm-bc" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontManagerApp.bc",
+    "object" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontManagerApp.o",
+    "swift-dependencies" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontManagerApp.swiftdeps",
+    "swiftmodule" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontManagerApp~partial.swiftmodule"
+  },
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/StringUtil.swift" : {
+    "const-values" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/StringUtil.swiftconstvalues",
+    "dependencies" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/StringUtil.d",
+    "diagnostics" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/StringUtil.dia",
+    "index-unit-output-path" : "/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/StringUtil.o",
+    "llvm-bc" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/StringUtil.bc",
+    "object" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/StringUtil.o",
+    "swift-dependencies" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/StringUtil.swiftdeps",
+    "swiftmodule" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/StringUtil~partial.swiftmodule"
+  },
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/model/FontDataModel.swift" : {
+    "const-values" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontDataModel.swiftconstvalues",
+    "dependencies" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontDataModel.d",
+    "diagnostics" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontDataModel.dia",
+    "index-unit-output-path" : "/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontDataModel.o",
+    "llvm-bc" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontDataModel.bc",
+    "object" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontDataModel.o",
+    "swift-dependencies" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontDataModel.swiftdeps",
+    "swiftmodule" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Debug/FontManager.build/Objects-normal/arm64/FontDataModel~partial.swiftmodule"
+  }
+}

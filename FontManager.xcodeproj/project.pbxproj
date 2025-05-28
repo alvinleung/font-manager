@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B1F59D62DE51514006006FB /* FontSizePreviewCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1F59D52DE51509006006FB /* FontSizePreviewCommands.swift */; };
+		9B334C6A2DE2996C009979EE /* FontDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B334C692DE29967009979EE /* FontDataModel.swift */; };
 		9B4AA3362DE00D47007629E7 /* FontManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4AA3352DE00D47007629E7 /* FontManagerApp.swift */; };
-		9B4AA3382DE00D47007629E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4AA3372DE00D47007629E7 /* ContentView.swift */; };
 		9B4AA33A2DE00D48007629E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B4AA3392DE00D48007629E7 /* Assets.xcassets */; };
 		9B4AA33D2DE00D48007629E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B4AA33C2DE00D48007629E7 /* Preview Assets.xcassets */; };
 		9B4AA3482DE00D48007629E7 /* FontManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4AA3472DE00D48007629E7 /* FontManagerTests.swift */; };
 		9B4AA3522DE00D48007629E7 /* FontManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4AA3512DE00D48007629E7 /* FontManagerUITests.swift */; };
 		9B4AA3542DE00D48007629E7 /* FontManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4AA3532DE00D48007629E7 /* FontManagerUITestsLaunchTests.swift */; };
 		9B4AA3612DE00E00007629E7 /* FontListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4AA3602DE00E00007629E7 /* FontListView.swift */; };
-		9B4AA3632DE10176007629E7 /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4AA3622DE10176007629E7 /* StringUtil.swift */; };
+		9B7B880A2DE3C95C00B67929 /* FontSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7B88092DE3C94C00B67929 /* FontSync.swift */; };
+		9BBEBA682DE4CD1D00D3C419 /* CompareFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBEBA672DE4CD1A00D3C419 /* CompareFiles.swift */; };
+		9BBEBA6A2DE4CD7200D3C419 /* SecuredScopeAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBEBA692DE4CD6E00D3C419 /* SecuredScopeAccess.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B1F59D52DE51509006006FB /* FontSizePreviewCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizePreviewCommands.swift; sourceTree = "<group>"; };
+		9B334C692DE29967009979EE /* FontDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDataModel.swift; sourceTree = "<group>"; };
 		9B4AA3322DE00D47007629E7 /* FontManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4AA3352DE00D47007629E7 /* FontManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManagerApp.swift; sourceTree = "<group>"; };
-		9B4AA3372DE00D47007629E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B4AA3392DE00D48007629E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B4AA33C2DE00D48007629E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9B4AA33E2DE00D48007629E7 /* FontManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FontManager.entitlements; sourceTree = "<group>"; };
@@ -48,7 +52,9 @@
 		9B4AA3512DE00D48007629E7 /* FontManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManagerUITests.swift; sourceTree = "<group>"; };
 		9B4AA3532DE00D48007629E7 /* FontManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9B4AA3602DE00E00007629E7 /* FontListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontListView.swift; sourceTree = "<group>"; };
-		9B4AA3622DE10176007629E7 /* StringUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtil.swift; sourceTree = "<group>"; };
+		9B7B88092DE3C94C00B67929 /* FontSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSync.swift; sourceTree = "<group>"; };
+		9BBEBA672DE4CD1A00D3C419 /* CompareFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareFiles.swift; sourceTree = "<group>"; };
+		9BBEBA692DE4CD6E00D3C419 /* SecuredScopeAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecuredScopeAccess.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B334C682DE2995B009979EE /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9B334C692DE29967009979EE /* FontDataModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		9B4AA3292DE00D47007629E7 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +113,14 @@
 		9B4AA3342DE00D47007629E7 /* FontManager */ = {
 			isa = PBXGroup;
 			children = (
-				9B4AA3352DE00D47007629E7 /* FontManagerApp.swift */,
-				9B4AA3372DE00D47007629E7 /* ContentView.swift */,
+				9BBEBA662DE4CD0700D3C419 /* Font Sync */,
+				9B4AA33B2DE00D48007629E7 /* Preview Content */,
+				9B334C682DE2995B009979EE /* model */,
 				9B4AA3392DE00D48007629E7 /* Assets.xcassets */,
 				9B4AA33E2DE00D48007629E7 /* FontManager.entitlements */,
-				9B4AA33B2DE00D48007629E7 /* Preview Content */,
+				9B4AA3352DE00D47007629E7 /* FontManagerApp.swift */,
 				9B4AA3602DE00E00007629E7 /* FontListView.swift */,
-				9B4AA3622DE10176007629E7 /* StringUtil.swift */,
+				9B1F59D52DE51509006006FB /* FontSizePreviewCommands.swift */,
 			);
 			path = FontManager;
 			sourceTree = "<group>";
@@ -133,6 +148,16 @@
 				9B4AA3532DE00D48007629E7 /* FontManagerUITestsLaunchTests.swift */,
 			);
 			path = FontManagerUITests;
+			sourceTree = "<group>";
+		};
+		9BBEBA662DE4CD0700D3C419 /* Font Sync */ = {
+			isa = PBXGroup;
+			children = (
+				9B7B88092DE3C94C00B67929 /* FontSync.swift */,
+				9BBEBA672DE4CD1A00D3C419 /* CompareFiles.swift */,
+				9BBEBA692DE4CD6E00D3C419 /* SecuredScopeAccess.swift */,
+			);
+			path = "Font Sync";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +224,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					9B4AA3312DE00D47007629E7 = {
 						CreatedOnToolsVersion = 15.4;
@@ -265,10 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B4AA3632DE10176007629E7 /* StringUtil.swift in Sources */,
-				9B4AA3382DE00D47007629E7 /* ContentView.swift in Sources */,
+				9B7B880A2DE3C95C00B67929 /* FontSync.swift in Sources */,
 				9B4AA3612DE00E00007629E7 /* FontListView.swift in Sources */,
 				9B4AA3362DE00D47007629E7 /* FontManagerApp.swift in Sources */,
+				9B334C6A2DE2996C009979EE /* FontDataModel.swift in Sources */,
+				9BBEBA682DE4CD1D00D3C419 /* CompareFiles.swift in Sources */,
+				9B1F59D62DE51514006006FB /* FontSizePreviewCommands.swift in Sources */,
+				9BBEBA6A2DE4CD7200D3C419 /* SecuredScopeAccess.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +367,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -402,6 +431,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -432,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"FontManager/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -459,6 +490,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"FontManager/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -480,10 +512,10 @@
 		9B4AA35B2DE00D48007629E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
@@ -498,10 +530,10 @@
 		9B4AA35C2DE00D48007629E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
@@ -516,9 +548,9 @@
 		9B4AA35E2DE00D48007629E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = daybreak.FontManagerUITests;
@@ -532,9 +564,9 @@
 		9B4AA35F2DE00D48007629E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = daybreak.FontManagerUITests;

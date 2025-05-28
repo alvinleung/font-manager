@@ -1,0 +1,19 @@
+{
+	"name": "xcode build server",
+	"version": "0.2",
+	"bspVersion": "2.0",
+	"languages": [
+		"c",
+		"cpp",
+		"objective-c",
+		"objective-cpp",
+		"swift"
+	],
+	"argv": [
+		"/opt/homebrew/bin/xcode-build-server"
+	],
+	"workspace": "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager.xcodeproj/project.xcworkspace",
+	"build_root": "/Users/alvinleung/Library/Developer/Xcode/DerivedData/FontManager-hbkdqhmbtlnykbaannxmksyoelnm",
+	"kind": "xcode",
+	"scheme": "FontManager"
+}

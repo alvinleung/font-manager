@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "731FB8240709FDC5627A6A91798A9B6029AA0831",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "731FB8240709FDC5627A6A91798A9B6029AA0831" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C39BD817-95EF-4435-AE16-5C0D03FF40D3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "731FB8240709FDC5627A6A91798A9B6029AA0831" : "FontManager\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FontManager",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FontManager.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/alvinleung\/font-manager.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "731FB8240709FDC5627A6A91798A9B6029AA0831"
+    }
+  ]
+}

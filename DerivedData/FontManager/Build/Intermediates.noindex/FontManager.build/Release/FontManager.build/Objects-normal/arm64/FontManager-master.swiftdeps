@@ -1,0 +1,14 @@
+version: "Apple Swift version 6.1 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)"
+options: "f68170c3f810c311ca65306b0ba927479e1dd4dcd431247e8a1ffc46cddeb9bb"
+build_start_time: [1748293899, 383447000]
+build_end_time: [1748293901, 284697000]
+inputs:
+  ? "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex/FontManager.build/Release/FontManager.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1748293869, 976465071]
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/Font Sync/CompareFiles.swift": [1748277344, 155515074]
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/Font Sync/FontSync.swift": [1748293269, 452807496]
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/Font Sync/SecuredScopeAccess.swift": [1748286220, 995456330]
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/FontListView.swift": [1748281376, 825451829]
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/FontManagerApp.swift": [1748293887, 341760320]
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/StringUtil.swift": [1748028381, 534493752]
+  "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/model/FontDataModel.swift": [1748160693, 825653554]

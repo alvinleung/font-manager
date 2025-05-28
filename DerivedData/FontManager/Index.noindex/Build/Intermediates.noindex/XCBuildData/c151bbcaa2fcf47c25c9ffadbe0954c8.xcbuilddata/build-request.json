@@ -1,0 +1,54 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "c056db388923d8bbfc440317e109ac5176e01603b104379d3f00b7858718bcc7"
+    },
+    {
+      "guid" : "c056db388923d8bbfc440317e109ac5187b636f9b9c29356e45ad098c002de7d"
+    },
+    {
+      "guid" : "c056db388923d8bbfc440317e109ac515e8c61f89b344520fb9b5516eba27e36"
+    }
+  ],
+  "containerPath" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Build/Products",
+      "pchPath" : "/Users/alvinleung/Documents/garden/font-manager/FontManager/DerivedData/FontManager/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

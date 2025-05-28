@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'FontManager' in project 'FontManager' (no dependencies)

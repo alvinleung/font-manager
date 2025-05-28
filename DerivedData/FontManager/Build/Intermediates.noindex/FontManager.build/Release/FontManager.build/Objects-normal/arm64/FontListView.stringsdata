@@ -1,0 +1,40 @@
+{
+  "source": "/Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/FontListView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Find fonts...",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 133
+        }
+      },
+      {
+        "comment": "",
+        "key": "Loading...",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 103
+        }
+      },
+      {
+        "comment": "",
+        "key": "Refresh",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 110
+        }
+      },
+      {
+        "comment": "",
+        "key": "Copy %lld file%@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 247
+        }
+      }
+    ]
+  },
+  "version": 1
+}
