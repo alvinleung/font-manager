@@ -11,6 +11,7 @@ import Foundation
 struct FontSync {
 
     static func syncWithPermission() async {
+
         let fileManager = FileManager.default
 
         let fontDirURL = fileManager.homeDirectoryForCurrentUser
@@ -47,8 +48,6 @@ struct FontSync {
         // toggling access state
         copyFromDir.beginAccess()
         fontRootDir.beginAccess()
-
-        print("your mom!")
 
         guard let syncSubDir = ensureDirExists(at: fontRootDir.url.appendingPathComponent("Sync"))
         else {
