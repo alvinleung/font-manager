@@ -1,19 +1,21 @@
 [H[Jnote: Building targets in dependency order
 note: Target dependency graph (1 target)
-[FontManager] Compiling FontSync.swift
-[x] /Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/Font Sync/FontSync.swift:14:9: cannot find 'test' in scope
-        test()
-        ^~~~
+[FontManager] Compiling FontManagerApp.swift
+[FontManager] Copy arm64-apple-macos.swiftsourceinfo -> FontManager.swiftsourceinfo
+[FontManager] Copy arm64-apple-macos.abi.json -> FontManager.abi.json
+[FontManager] Linking FontManager.debug.dylib
+note: Using stub executor library with Swift entry point. (in target 'FontManager' from project 'FontManager')
+[FontManager] Linking FontManager
+[FontManager] Extract App Intents Metadata
+Signing FontManager.debug.dylib (in target 'FontManager' from project 'FontManager')
+Signing __preview.dylib (in target 'FontManager' from project 'FontManager')
+Signing FontManager.app (in target 'FontManager' from project 'FontManager')
+[FontManager] Validate FontManager.app
+Build Succeeded
 
 -----------------------------
 -- xcodebuild.nvim summary --
 -----------------------------
 
-Errors:
-  ✖ /Users/alvinleung/Documents/garden/font-manager/FontManager/FontManager/Font Sync/FontSync.swift:14:9
-    cannot find 'test' in scope
-            test()
-            ^~~~
-
-  Build Failed
+  ✔ Build Succeeded
 

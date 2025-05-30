@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2966D9316666032B481F7DAD /* GoogleAPIKeyDoNotCommit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10979897EDCD960366999AEE /* GoogleAPIKeyDoNotCommit.swift */; };
+		2EE72C3D724EDE96B08AB2D1 /* GoogleFontProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEF774AC5E77B63412BBF8A /* GoogleFontProvider.swift */; };
+		5B9D8002B69A8F82AC31316F /* FontInfoProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52F2C70262068D8429518EE /* FontInfoProviderProtocol.swift */; };
 		9B1F59D62DE51514006006FB /* FontSizePreviewCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1F59D52DE51509006006FB /* FontSizePreviewCommands.swift */; };
 		9B334C6A2DE2996C009979EE /* FontDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B334C692DE29967009979EE /* FontDataModel.swift */; };
 		9B4AA3362DE00D47007629E7 /* FontManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4AA3352DE00D47007629E7 /* FontManagerApp.swift */; };
@@ -39,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10979897EDCD960366999AEE /* GoogleAPIKeyDoNotCommit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GoogleAPIKeyDoNotCommit.swift; sourceTree = "<group>"; };
+		6AEF774AC5E77B63412BBF8A /* GoogleFontProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GoogleFontProvider.swift; sourceTree = "<group>"; };
 		9B1F59D52DE51509006006FB /* FontSizePreviewCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizePreviewCommands.swift; sourceTree = "<group>"; };
 		9B334C692DE29967009979EE /* FontDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDataModel.swift; sourceTree = "<group>"; };
 		9B4AA3322DE00D47007629E7 /* FontManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +60,7 @@
 		9B7B88092DE3C94C00B67929 /* FontSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSync.swift; sourceTree = "<group>"; };
 		9BBEBA672DE4CD1A00D3C419 /* CompareFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareFiles.swift; sourceTree = "<group>"; };
 		9BBEBA692DE4CD6E00D3C419 /* SecuredScopeAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecuredScopeAccess.swift; sourceTree = "<group>"; };
+		C52F2C70262068D8429518EE /* FontInfoProviderProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FontInfoProviderProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3269FC96BCFA6995CA1285AC /* Font Info Providers */ = {
+			isa = PBXGroup;
+			children = (
+				C52F2C70262068D8429518EE /* FontInfoProviderProtocol.swift */,
+				6AEF774AC5E77B63412BBF8A /* GoogleFontProvider.swift */,
+				10979897EDCD960366999AEE /* GoogleAPIKeyDoNotCommit.swift */,
+			);
+			name = "Font Info Providers";
+			path = "Font Info Providers";
+			sourceTree = "<group>";
+		};
 		9B334C682DE2995B009979EE /* model */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +138,7 @@
 				9B4AA3352DE00D47007629E7 /* FontManagerApp.swift */,
 				9B4AA3602DE00E00007629E7 /* FontListView.swift */,
 				9B1F59D52DE51509006006FB /* FontSizePreviewCommands.swift */,
+				3269FC96BCFA6995CA1285AC /* Font Info Providers */,
 			);
 			path = FontManager;
 			sourceTree = "<group>";
@@ -297,6 +315,9 @@
 				9BBEBA682DE4CD1D00D3C419 /* CompareFiles.swift in Sources */,
 				9B1F59D62DE51514006006FB /* FontSizePreviewCommands.swift in Sources */,
 				9BBEBA6A2DE4CD7200D3C419 /* SecuredScopeAccess.swift in Sources */,
+				5B9D8002B69A8F82AC31316F /* FontInfoProviderProtocol.swift in Sources */,
+				2EE72C3D724EDE96B08AB2D1 /* GoogleFontProvider.swift in Sources */,
+				2966D9316666032B481F7DAD /* GoogleAPIKeyDoNotCommit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

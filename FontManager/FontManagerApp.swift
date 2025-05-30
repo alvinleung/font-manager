@@ -43,6 +43,22 @@ struct FontManagerApp: App {
                     }
                 }
                 .keyboardShortcut("N", modifiers: [.command, .shift])
+
+                Button("Fetch Google Font") {
+                    Task {
+                        let res = await GoogleFontProvider.shared.fetchAvailable()
+                        guard case let .success(googleFonts) = res else {
+                            if case let .failure(err) = res {
+                                print("Error: \(err)")
+                            } else {
+                                print("unkown error")
+                            }
+                            return
+                        }
+
+                    }
+                }
+                .keyboardShortcut("G", modifiers: [.command, .shift])
             }
             FontPreviewCommands(state: fontPreviewState)
         }
@@ -205,12 +221,11 @@ struct MainView: View {
         print("All system fonts indexed.")
     }
 }
-
 // MARK: - Plain data structs used off main actor
 
 struct SystemFontData {
     let familyName: String
-    let category: FontCategory
+    let category: FontCategoryInfo
     let files: [SystemFontFileData]
 }
 
@@ -222,7 +237,7 @@ struct SystemFontFileData {
     let path: String
 }
 
-enum FontCategory: String {
+enum FontCategoryInfo: String {
     case serif
     case sansSerif
     case monospaced
@@ -233,7 +248,7 @@ enum FontCategory: String {
 
 func fetchSingleFontFamily(familyName: String) -> SystemFontData? {
     var files = [SystemFontFileData]()
-    var category: FontCategory = .unknown
+    var category: FontCategoryInfo = .unknown
 
     let attributes: [CFString: Any] = [kCTFontFamilyNameAttribute: familyName]
     let desc = CTFontDescriptorCreateWithAttributes(attributes as CFDictionary)
@@ -273,7 +288,7 @@ func fetchSingleFontFamily(familyName: String) -> SystemFontData? {
     return SystemFontData(familyName: familyName, category: category, files: files)
 }
 
-func inferCategoryFromFontName(_ name: String, traits: CTFontSymbolicTraits) -> FontCategory {
+func inferCategoryFromFontName(_ name: String, traits: CTFontSymbolicTraits) -> FontCategoryInfo {
     if traits.contains(.traitMonoSpace) {
         return .monospaced
     }
