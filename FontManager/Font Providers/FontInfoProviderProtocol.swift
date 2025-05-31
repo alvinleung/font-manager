@@ -7,7 +7,7 @@
 
 protocol FontFamilyPreviewInfo {
     var family: String { get }
-    var files: [String:String] { get }
+    var files: [String: String] { get }
 }
 
 protocol FontProviderProtocol {
@@ -20,4 +20,10 @@ protocol FontProviderProtocol {
     // copying it from the source to the user's
     // font folder ~/Library/font
     func install(font: FontInfo) async
+}
+
+class FontProviders {
+    static let shared = FontProviders()
+    private init() {}
+
 }

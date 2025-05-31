@@ -88,7 +88,6 @@ enum FontStyle: String, Codable {
 }
 
 // MARK: - Font Variant Enum
-
 enum FontVariant: String, Codable {
     case regular
     case italic
